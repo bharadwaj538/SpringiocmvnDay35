@@ -1,0 +1,106 @@
+<!--   <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+		-->	
+		<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+           
+         <bean name="employee" class="ai.jobiak.sample.EmployeeDetails">
+         	<property name="id" value="538"></property>
+         	<property name="name" value="Bharadwaj"></property>
+         	<property name="salary" value="20000"></property>
+         	<property name="address" value="Visakhapatnam"></property>
+         </bean>
+         
+           <bean name="employee2" class="ai.jobiak.sample.EmployeeDetails">
+         	<property name="id" value="539"></property>
+         	<property name="name" value="Karteek"></property>
+         	<property name="salary" value="20000"></property>
+         	<property name="address" value="Rajahmundry"></property>
+         </bean>
+         
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+	<!-- 	
+	<bean name="a" class="com.jobiak.auto.Point">
+	<property name="x" value="25.5"></property>
+	<property name="y" value="35.5"></property>
+	
+	</bean>	
+	
+	<bean name="b" class="com.jobiak.auto.Point">
+	<property name="x" value="75.5"></property>
+	<property name="y" value="85.5"></property>
+	
+	</bean>
+	 	
+	<bean name="line" class="com.jobiak.auto.Line" autowire="constructor"></bean>
+	// in autowire we use (default no, byName, byType and constructor) also 
+	<bean name="line" class="com.jobiak.auto.Line">
+	<property name="a" ref="pointA"></property>
+	<property name="b" ref="pointB"></property>
+	
+	</bean>
+	
+		
+		
+		 
+				<bean name="garden" class="com.jobiak.ioc.Garden">
+				<property name="fruits">
+				<list>
+					<value>Mango</value>
+					<value>Kiwi</value>
+					<value>Watermelon</value>
+					<value>Muskmelon</value>
+					<value>Orange</value>
+				
+				</list>
+				</property>
+				<property name="trees">
+					<set>
+					<value>Banyan Tree</value>
+					<value>Oak Tree</value>
+					<value>Neem Tree</value>
+					<value>Tamrind Tree</value>
+					</set>
+				</property>
+				<property name="cityFruits">
+					<map>
+						<entry	key="Hyderabad"    value="Custardapple"></entry>
+						<entry	key="Banginapally" value="Mangoes">     </entry>
+						<entry	key="Ananthapur"   value="Muskmelon">   </entry>
+						<entry	key="Kashmir"      value="Apple">       </entry>
+						<entry	key="Karnataka"	   value="Sugarcane">   </entry>
+					</map>
+				</property>
+				
+				<constructor-arg name="flowers">
+					<list>
+					<value>Jasmine</value>
+					<value>Rose</value>
+					<value>Lilly</value>
+					<value>Cosmos</value>					
+					</list>
+				
+				</constructor-arg>
+				</bean>
+				
+				-->
+				
+				
+			</beans>  
